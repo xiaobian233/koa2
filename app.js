@@ -12,6 +12,10 @@ app.use(
 	koaBody({
 		enableTypes: ['json', 'form', 'text'],
 		multipart: true,
+		// formidable: {
+		// 	uploadDir: path.join(__dirname, './uploads'), 
+		// 	keepExtensions: true,
+		// },
 	})
 )
 

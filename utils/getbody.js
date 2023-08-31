@@ -6,6 +6,7 @@ const resBody = ctx => {
 	let querystring = ctx.querystring
 	let host = ctx.header.host
 	let body = ctx.request.body
+	let file = ctx.request?.files?.file || null
 	ctx.reqBody = {
 		method,
 		query,
@@ -13,7 +14,8 @@ const resBody = ctx => {
 		querystring,
 		host,
 		params,
-		body
+		body,
+		file,
 	}
 }
 

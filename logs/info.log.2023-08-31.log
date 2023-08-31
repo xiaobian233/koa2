@@ -1,0 +1,434 @@
+[2023-08-31T20:13:34.899] [INFO] info - {
+  body: Success { code: 200, data: '上传成功', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: undefined,
+    file: null
+  }
+}
+[2023-08-31T20:15:20.282] [INFO] info - {
+  body: Success { code: 200, data: '上传成功', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T20:47:06.439] [INFO] info - {
+  body: Success { code: 200, data: [ [Object], [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T21:03:31.444] [INFO] info - {
+  body: Success { code: 200, data: [ [Object], [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T21:10:17.087] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:10:17.068Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\158d9eff0e7e3dcd9a7570c00',
+      newFilename: '158d9eff0e7e3dcd9a7570c00',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:10:25.210] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:10:25.191Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\8337da41610c76f85e2028e00',
+      newFilename: '8337da41610c76f85e2028e00',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:11:31.222] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:11:31.205Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\46f6bad8f9c51f05701026100',
+      newFilename: '46f6bad8f9c51f05701026100',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:16:35.206] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:16:35.188Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\b07c111b1375c5bd2806d4000',
+      newFilename: 'b07c111b1375c5bd2806d4000',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:16:57.621] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:16:57.602Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\b3614f00f0318b5c467230f00',
+      newFilename: 'b3614f00f0318b5c467230f00',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:17:01.474] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:17:01.461Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\b3614f00f0318b5c467230f01',
+      newFilename: 'b3614f00f0318b5c467230f01',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:17:02.394] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:17:02.381Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\b3614f00f0318b5c467230f02',
+      newFilename: 'b3614f00f0318b5c467230f02',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:17:03.661] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:17:03.649Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\b3614f00f0318b5c467230f03',
+      newFilename: 'b3614f00f0318b5c467230f03',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:24:46.801] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:24:46.793Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\e969d219bd21432772c9ed100',
+      newFilename: 'e969d219bd21432772c9ed100',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:27:50.602] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:27:50.590Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\702cd4b5dc1cfb114e426fb00',
+      newFilename: '702cd4b5dc1cfb114e426fb00',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:29:50.837] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:29:50.828Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\6554afa746b376366870b0100',
+      newFilename: '6554afa746b376366870b0100',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-6554afa746b376366870b0100.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:34:04.339] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:34:04.331Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\b7dc1cffc7dabfa99dba0d300',
+      newFilename: 'b7dc1cffc7dabfa99dba0d300',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      suffix: [Array],
+      fileName: '5,5,0-b7dc1cffc7dabfa99dba0d300.xls',
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-b7dc1cffc7dabfa99dba0d300.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:34:31.130] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:34:31.122Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\63e06717121f6243bd7aa7300',
+      newFilename: '63e06717121f6243bd7aa7300',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      suffix: 'xls',
+      fileName: '5,5,0-63e06717121f6243bd7aa7300.xls',
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-63e06717121f6243bd7aa7300.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:35:17.323] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:35:17.315Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\0fcf314c01f2000d54ecf5800',
+      newFilename: '0fcf314c01f2000d54ecf5800',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      suffix: 'xls',
+      fileName: '5,5,0-0fcf314c01f2000d54ecf5800.xls',
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-0fcf314c01f2000d54ecf5800.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
