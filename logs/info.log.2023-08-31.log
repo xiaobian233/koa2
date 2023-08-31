@@ -1,0 +1,384 @@
+[2023-08-31T15:08:16.241] [INFO] info - {
+  body: Success { code: 200, data: '这是post请求', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/home/post',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: { name: '萨达', age: '19' }
+  }
+}
+[2023-08-31T15:08:17.432] [INFO] info - {
+  body: Success { code: 200, data: '这是post请求', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/home/post',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: { name: '萨达', age: '19' }
+  }
+}
+[2023-08-31T15:08:18.138] [INFO] info - {
+  body: Success { code: 200, data: '这是post请求', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/home/post',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: { name: '萨达', age: '19' }
+  }
+}
+[2023-08-31T15:08:18.775] [INFO] info - {
+  body: Success { code: 200, data: '这是post请求', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/home/post',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: { name: '萨达', age: '19' }
+  }
+}
+[2023-08-31T15:10:38.137] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:39.181] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:41.198] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:41.835] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:42.284] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:42.701] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:43.138] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:43.426] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:10:43.671] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:11:55.010] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:11:59.425] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] {},
+    url: '/home/get',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:12:22.400] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:13:21.666] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:13:24.503] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:13:24.929] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:13:25.128] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:13:25.290] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:13:25.444] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:13:25.584] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:15:50.554] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:03.387] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:04.112] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:04.618] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:05.157] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:05.477] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:05.759] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:05.978] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
+[2023-08-31T15:16:06.151] [INFO] info - {
+  body: Success { code: 200, data: '开心就好鸭!', message: null },
+  reqBody: {
+    method: 'GET',
+    query: [Object: null prototype] { name: '111' },
+    url: '/home/get?name=111',
+    querystring: 'name=111',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {}
+  }
+}
