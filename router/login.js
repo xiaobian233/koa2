@@ -1,13 +1,23 @@
-const Router = require('koa-router')
-const login = new Router()
+const router = require('koa-router')()
+const { login } = require('../controller/user')
+const { AUTHORIZATION } = require('../config/db.js')
+const jwt = require('jsonwebtoken')
 
-login.get('home/get', ctx => {
-	ctx.Res('开心就好鸭!')
+router.post(`/`, async ctx => {
+	const user = await login(ctx.reqBody.body)
+	if (user) {
+		const token = jwt.sign(
+			{
+				username: user.username,
+				id: user.id,
+			},
+			AUTHORIZATION.jwtSecret,
+			{ expiresIn: AUTHORIZATION.tokenExpiresTime }
+		)
+		ctx.session.token = token
+		return ctx.Res({ token, username: user.username })
+	}
+	ctx.Rej('登录失败')
 })
 
-login.post(`home/post`, ctx => {
-	console.error(ctx.request.body, 'ctx.request.body');
-	ctx.Res('这是post请求')
-})
-
-module.exports = login
+module.exports = router

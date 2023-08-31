@@ -1,13 +1,12 @@
-const Router = require('koa-router')
-const user = new Router()
+const router = require('koa-router')()
 
-user.get('home/get', ctx => {
+router.get('/get', ctx => {
 	ctx.Res('开心就好鸭!')
 })
 
-user.post(`home/post`, ctx => {
+router.post(`/post`, ctx => {
 	console.error(ctx.request.body, 'ctx.request.body');
 	ctx.Res('这是post请求')
 })
 
-module.exports = user
+module.exports = router
