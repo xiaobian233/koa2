@@ -1,0 +1,351 @@
+[2023-08-31T21:43:04.828] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: RowDataPacket {
+      id: 1,
+      username: '张三',
+      password: 'Aa1234..',
+      phone: '18674054907',
+      files: null
+    },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/home/post',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: undefined,
+    file: null
+  }
+}
+[2023-08-31T21:43:06.749] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: RowDataPacket {
+      id: 1,
+      username: '张三',
+      password: 'Aa1234..',
+      phone: '18674054907',
+      files: null
+    },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/home/post',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: undefined,
+    file: null
+  }
+}
+[2023-08-31T21:43:07.694] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: RowDataPacket {
+      id: 1,
+      username: '张三',
+      password: 'Aa1234..',
+      phone: '18674054907',
+      files: null
+    },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/home/post',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: undefined,
+    file: null
+  }
+}
+[2023-08-31T21:43:40.825] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:43:40.822Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\c16b2152287bb07d041880802',
+      newFilename: 'c16b2152287bb07d041880802',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      suffix: 'xls',
+      fileName: '5,5,0-c16b2152287bb07d041880802.xls',
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-c16b2152287bb07d041880802.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:52:32.895] [INFO] info - {
+  body: Success { code: 200, data: '文件上传', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:52:32.881Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\8c3e63367a3dcb06d1570c800',
+      newFilename: '8c3e63367a3dcb06d1570c800',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      suffix: 'xls',
+      fileName: '5,5,0-8c3e63367a3dcb06d1570c800.xls',
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-8c3e63367a3dcb06d1570c800.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:52:41.621] [INFO] info - {
+  body: Success { code: 200, data: '文件上传', message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:52:41.615Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\8c3e63367a3dcb06d1570c801',
+      newFilename: '8c3e63367a3dcb06d1570c801',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      suffix: 'xls',
+      fileName: '5,5,0-8c3e63367a3dcb06d1570c801.xls',
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-8c3e63367a3dcb06d1570c801.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:53:52.642] [INFO] info - {
+  body: Success { code: 200, data: [ [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: PersistentFile {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      lastModifiedDate: 2023-08-31T13:53:52.629Z,
+      filepath: 'C:\\Users\\小W。\\AppData\\Local\\Temp\\de8ea604c2b0ca014bf77ce00',
+      newFilename: 'de8ea604c2b0ca014bf77ce00',
+      originalFilename: '5.5.0.xls',
+      mimetype: 'application/vnd.ms-excel',
+      hashAlgorithm: false,
+      size: 19456,
+      _writeStream: [WriteStream],
+      hash: null,
+      suffix: 'xls',
+      fileName: '5,5,0-de8ea604c2b0ca014bf77ce00.xls',
+      path: 'D:\\code\\koa2\\koa2\\static\\uploads/5,5,0-de8ea604c2b0ca014bf77ce00.xls',
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+[2023-08-31T21:59:37.033] [INFO] info - {
+  body: Success { code: 200, data: [ [Object], [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:08:21.035] [INFO] info - {
+  body: Success { code: 200, data: [ [Object], [Object] ], message: null },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:09:31.193] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: '[{"createTime":"2023-08-31T14:09:31.181Z","filePath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6900","fileType":"application/vnd.ms-excel","fileName":"5,5,0-fb716b0d16cec35455d8c6900_1693490971192.xls","originalFilename":"5.5.0.xls","size":19456,"oldHash":"fb716b0d16cec35455d8c6900","hash":"fb716b0d16cec35455d8c6900_1693490971192","path":"D:\\\\code\\\\koa2\\\\koa2\\\\static\\\\uploads/5,5,0-fb716b0d16cec35455d8c6900_1693490971192.xls","suffix":"xls","file":{"size":19456,"filepath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6900","newFilename":"fb716b0d16cec35455d8c6900","mimetype":"application/vnd.ms-excel","mtime":"2023-08-31T14:09:31.181Z","originalFilename":"5.5.0.xls","hash":"fb716b0d16cec35455d8c6900_1693490971192"}},{"createTime":"2023-08-31T14:09:31.182Z","filePath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6901","fileType":"application/vnd.ms-excel","fileName":"5,5,0-fb716b0d16cec35455d8c6901_1693490971192.xls","originalFilename":"5.5.0.xls","size":19456,"oldHash":"fb716b0d16cec35455d8c6901","hash":"fb716b0d16cec35455d8c6901_1693490971192","path":"D:\\\\code\\\\koa2\\\\koa2\\\\static\\\\uploads/5,5,0-fb716b0d16cec35455d8c6901_1693490971192.xls","suffix":"xls","file":{"size":19456,"filepath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6901","newFilename":"fb716b0d16cec35455d8c6901","mimetype":"application/vnd.ms-excel","mtime":"2023-08-31T14:09:31.182Z","originalFilename":"5.5.0.xls","hash":"fb716b0d16cec35455d8c6901_1693490971192"}}]',
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:09:39.331] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: '[{"createTime":"2023-08-31T14:09:39.325Z","filePath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6902","fileType":"application/vnd.ms-excel","fileName":"5,5,0-fb716b0d16cec35455d8c6902_1693490979331.xls","originalFilename":"5.5.0.xls","size":19456,"oldHash":"fb716b0d16cec35455d8c6902","hash":"fb716b0d16cec35455d8c6902_1693490979331","path":"D:\\\\code\\\\koa2\\\\koa2\\\\static\\\\uploads/5,5,0-fb716b0d16cec35455d8c6902_1693490979331.xls","suffix":"xls","file":{"size":19456,"filepath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6902","newFilename":"fb716b0d16cec35455d8c6902","mimetype":"application/vnd.ms-excel","mtime":"2023-08-31T14:09:39.325Z","originalFilename":"5.5.0.xls","hash":"fb716b0d16cec35455d8c6902_1693490979331"}},{"createTime":"2023-08-31T14:09:39.325Z","filePath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6903","fileType":"application/vnd.ms-excel","fileName":"5,5,0-fb716b0d16cec35455d8c6903_1693490979331.xls","originalFilename":"5.5.0.xls","size":19456,"oldHash":"fb716b0d16cec35455d8c6903","hash":"fb716b0d16cec35455d8c6903_1693490979331","path":"D:\\\\code\\\\koa2\\\\koa2\\\\static\\\\uploads/5,5,0-fb716b0d16cec35455d8c6903_1693490979331.xls","suffix":"xls","file":{"size":19456,"filepath":"C:\\\\Users\\\\小W。\\\\AppData\\\\Local\\\\Temp\\\\fb716b0d16cec35455d8c6903","newFilename":"fb716b0d16cec35455d8c6903","mimetype":"application/vnd.ms-excel","mtime":"2023-08-31T14:09:39.325Z","originalFilename":"5.5.0.xls","hash":"fb716b0d16cec35455d8c6903_1693490979331"}}]',
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:21:38.684] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: { data: '文件上传成功', files: [Array] },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:21:52.889] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: { data: '文件上传成功', files: [Array] },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:23:09.047] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: { data: '文件上传成功', files: [Array] },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:23:15.662] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: { data: '文件上传成功', files: [Array] },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:23:39.396] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: { data: '文件上传成功', files: [Array] },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}
+[2023-08-31T22:25:01.311] [INFO] info - {
+  body: Success {
+    code: 200,
+    data: { data: '文件上传成功', files: [Array] },
+    message: null
+  },
+  reqBody: {
+    method: 'POST',
+    query: [Object: null prototype] {},
+    url: '/file',
+    querystring: '',
+    host: 'localhost:5001',
+    params: undefined,
+    body: {},
+    file: [ [PersistentFile], [PersistentFile] ]
+  }
+}

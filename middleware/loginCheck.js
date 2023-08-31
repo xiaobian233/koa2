@@ -4,7 +4,7 @@ const { AUTHORIZATION } = require('../config/db.js')
 const logger = require('../utils/logger')
 
 // 服务前缀不增加拦截
-const prevfix = ['/login', '/file']
+const prevfix = ['/login']
 
 // 前缀服务判断是否需要判断token
 const userNext = async (ctx, next) => {

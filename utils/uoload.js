@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-
 const filesRender = (arr, res) => {
 	const files = []
 	arr.forEach(item => {
@@ -11,7 +10,8 @@ const filesRender = (arr, res) => {
 			fileName: item.fileName,
 			originalFilename: item.originalFilename,
 			size: item.size,
-			hash: item.newFilename,
+			oldHash: item.newFilename,
+			hash: item.hash,
 			path: item.path,
 			suffix: item.suffix,
 			file: item,
@@ -33,7 +33,8 @@ module.exports = (ctx, dirPaths) => {
 					fileReader = fs.createReadStream(file.filepath)
 					fileName = file.originalFilename.split('.')
 					file.suffix = fileName.splice(fileName.length - 1, 1).toString()
-					file.fileName = `${fileName}-${file.newFilename}.${file.suffix}`
+					file.hash = `${file.newFilename}_${Date.now()}`
+					file.fileName = `${fileName}-${file.hash}.${file.suffix}`
 					file.path = filePath + `/${file.fileName}`
 					writeStream = fs.createWriteStream(file.path)
 					fileReader.pipe(writeStream)
