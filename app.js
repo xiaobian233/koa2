@@ -1,6 +1,10 @@
 const Koa = require('koa')
+const path = require('path')
 const app = new Koa()
-const logger = require('./utils/logger')
+
+// 托管静态资源
+const static = require('koa-static')
+app.use(static(path.join(__dirname, './static')))
 
 // body解析
 const { koaBody } = require('koa-body')
