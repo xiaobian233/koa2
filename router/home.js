@@ -6,8 +6,7 @@ router.get('/get', ctx => {
 })
 
 router.post(`/post`, ctx => {
-	console.error(ctx.request.body, 'ctx.request.body');
-	ctx.Res('这是post请求')
+	ctx.Res(ctx.session.user)
 })
 
 module.exports = router

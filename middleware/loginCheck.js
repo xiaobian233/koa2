@@ -1,7 +1,7 @@
-const { login } = require('../controller/user')
-const { verify } = require('../utils/verify')
+const { userInfo } = require('../controller/user')
+const verify = require('../utils/verify')
 const { AUTHORIZATION } = require('../config/db.js')
-const jwt = require('jsonwebtoken')
+const logger = require('../utils/logger')
 
 // 服务前缀不增加拦截
 const prevfix = ['/login']
@@ -16,13 +16,33 @@ const userNext = async (ctx, next) => {
 }
 
 // 验证token 为空提示登录失败
-const hasToken = async (ctx, next) => {
+const hasTokenNext = async (ctx, next) => {
 	if (userNext.next) {
-		ctx.Rej('登录失效')
+		const token = ctx.header.authorization
+		if (!(token !== null && token)) return ctx.Rej(`认证失效，请重新登录`)
+		try {
+			let payload = await verify(token, AUTHORIZATION.jwtSecret)
+			if (payload) {
+				let user = await userInfo(payload.id)
+				if (!!user) {
+					const userData = {
+						name: payload.username,
+						id: payload.id,
+					}
+					ctx.state.user = userData
+					ctx.session.user = user
+				}
+			}
+		} catch (err) {
+			logger.error(err)
+			ctx.Rej(`认证失效，请重新登录`)
+			return
+		}
+		await next()
 	}
 }
 
 module.exports = async (ctx, next) => {
 	await userNext(ctx, next)
-	await hasToken(ctx, next)
+	await hasTokenNext(ctx, next)
 }
