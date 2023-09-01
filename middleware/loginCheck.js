@@ -3,14 +3,18 @@ const verify = require('../utils/verify')
 const { AUTHORIZATION } = require('../config/db.js')
 const logger = require('../utils/logger')
 
-// 服务前缀不增加拦截
+// 服务前缀不增加拦截 or url匹配判断
 const prevfix = ['/login']
+const urlfix = ['/file/down']
 
 // 前缀服务判断是否需要判断token
 const userNext = async (ctx, next) => {
 	userNext.next = false
+	// 前缀判断
 	const url = `/${ctx.reqBody.url.split('/')[1]}`
-	let bol = prevfix.includes(url)
+	const _url = ctx.reqBody.url.split('?')[0]
+	// 前缀判断 or url匹配判断
+	let bol = prevfix.includes(url) || urlfix.some(url => url == _url)
 	if (bol) return await next()
 	userNext.next = true
 }

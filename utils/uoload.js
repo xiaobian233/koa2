@@ -4,6 +4,8 @@ const filesRender = (arr, res) => {
 	const files = []
 	arr.forEach(item => {
 		files.push({
+			// file: item,
+			...item,
 			createTime: item.lastModifiedDate,
 			filePath: item.filepath,
 			fileType: item.mimetype,
@@ -14,7 +16,6 @@ const filesRender = (arr, res) => {
 			hash: item.hash,
 			path: item.path,
 			suffix: item.suffix,
-			file: item,
 		})
 	})
 	res(files)
